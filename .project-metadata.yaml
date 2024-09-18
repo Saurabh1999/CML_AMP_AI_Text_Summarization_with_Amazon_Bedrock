@@ -41,5 +41,6 @@ tasks:
     long_summary: Launching Application and UI. Bedrock model invocation will use the configured AWS role. 
     cpu: 2
     memory: 8
+    replicas: 3
     environment_variables:
       TASK_TYPE: START_APPLICATION
